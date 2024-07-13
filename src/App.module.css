@@ -1,7 +1,8 @@
 .app {
+    
     background-image: url('../src/assets/images/frank-huang-ffg7XrsA3oU-unsplash.jpg');
     background-size: cover;
-    background-position: center;
+    
     height: 100vh;
     width: 100%;
 }

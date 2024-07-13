@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../SearchBar/SearchBar.module.css';
+import SearchButton from '../SearchButton/SearchButton';
 
 function SearchBar() {
   return (
@@ -8,8 +9,9 @@ function SearchBar() {
       <input 
       className={styles.searchInput}
       type="search"
-      id="music-search" name="founder" placeholder="Search">
-      </input>
+      id="music-search" name="founder" placeholder="Search"
+      />
+      <SearchButton />
     </div>
   );
 };

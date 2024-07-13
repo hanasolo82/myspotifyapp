@@ -1,14 +1,17 @@
 .Bar {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
-  
+
 }
 .searchInput {
-  margin: 30rem; /* esto con flex-grow barra adaptable*/
-  height: 4rem;
-  flex-grow: 1;
-  margin-top: 4rem;
+  margin: 5rem 0rem 1rem 0rem; /* esto con flex-grow barra adaptable*/
+  height: 5rem;
+  min-width: 30rem;
+  max-width: 60rem;
+  width: calc(100% - 20rem);/*brutal ajuste de margenes*/
   text-align: center;
   border-radius: 4rem;
   border: solid 0rem;
