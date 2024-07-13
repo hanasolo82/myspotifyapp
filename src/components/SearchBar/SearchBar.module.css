@@ -1,4 +1,22 @@
 .Bar {
-    display: flex;
-    
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+}
+.searchInput {
+  margin: 30rem; /* esto con flex-grow barra adaptable*/
+  height: 4rem;
+  flex-grow: 1;
+  margin-top: 4rem;
+  text-align: center;
+  border-radius: 4rem;
+  border: solid 0rem;
+  background-color: hsla(0, 0%, 95%, 0.5);
+  font-size: 2rem;
+  
+}
+.searchInput::placeholder {
+  color: black;
+  font-size: 2rem;
 }
