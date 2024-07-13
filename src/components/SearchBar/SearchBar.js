@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../SearchBar/SearchBar.module.css';
-import SearchButton from '../SearchButton/SearchButton';
+import AppSearchButton from '../SearchButton/container/AppSearchButton';
 
 function SearchBar() {
   return (
@@ -11,7 +11,7 @@ function SearchBar() {
       type="search"
       id="music-search" name="founder" placeholder="Search"
       />
-      <SearchButton />
+      <AppSearchButton />
     </div>
   );
 };
