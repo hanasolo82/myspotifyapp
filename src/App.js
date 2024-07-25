@@ -6,8 +6,7 @@ import AppSearchResults from "./components/SearchResults/container/AppSearchResu
 function App() {
   return (
     <div className={styles.app}>
-      <SearchBar />
-      <AppSearchResults />
+   
     </div>
   );
 }
