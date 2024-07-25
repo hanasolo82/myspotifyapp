@@ -4,6 +4,8 @@ import SearchButton from '../SearchButton';
 
 
 function AppSearchButton() {
+
+    // aqui se recoge input useState y se  manda la solicitud a la API
     function handleClick() {
         alert('mensage was sent succesfully')
     };
