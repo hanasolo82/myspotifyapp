@@ -1,0 +1,26 @@
+.container {
+
+    display: flex;
+    flex-direction: column;
+  
+    border: solid green;
+    text-align: center;
+    margin: 0;
+  }
+  
+  li {
+      list-style-type: none;
+      padding: 2rem;
+      border: solid;
+      border-radius: 10px;
+      background-color: hsla(0, 0%, 95%, 0.5);
+  }
+    
+  .album {
+      list-style-type: none;
+      padding: 2rem;
+      border: solid;
+      border-radius: 10px;
+      background-color: hsla(0, 79%, 73%, 0.5);
+  
+  }

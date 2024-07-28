@@ -1,14 +1,7 @@
-import React from "react";
-import styles from "./App.module.css";
-import SearchBar from "./components/SearchBar/SearchBar";
-import AppSearchResults from "./components/SearchResults/container/AppSearchResults";
+import React, {useState} from "react"; 
+import { artists } from "./assets/data";
 
-function App() {
-  return (
-    <div className={styles.app}>
-   
-    </div>
-  );
-}
+export default function App() {
 
-export default App;
+    
+};
