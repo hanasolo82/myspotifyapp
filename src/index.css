@@ -7,7 +7,7 @@ body {
   font-family:'ubuntu','sans-serif';
   margin: 0;
   padding: 0;
-  background-image: url('../src/assets/images/frank-huang-ffg7XrsA3oU-unsplash.jpg');
+  /*background-image: url('../src/assets/images/frank-huang-ffg7XrsA3oU-unsplash.jpg');*/
   background-size: cover;
   
   height: 100vh;

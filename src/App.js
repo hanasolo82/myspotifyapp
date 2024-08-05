@@ -1,7 +1,7 @@
-import React, {useState} from "react"; 
-import { artists } from "./assets/data";
+import React, { useState } from "react";
+
+
 
 export default function App() {
-
-    
+  
 };
